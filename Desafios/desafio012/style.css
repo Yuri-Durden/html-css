@@ -79,7 +79,7 @@ section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.507);
-    text-shadow: 2px 2px 0 black;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.582);
 }
 
 section#img01 {
