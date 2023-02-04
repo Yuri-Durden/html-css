@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Ideas</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, iure. Ex, non ipsam, cupiditate, ipsa autem ipsum nulla quaerat sit aperiam necessitatibus fugit? Culpa, accusantium! Voluptas deleniti neque odit commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et repellendus esse dolorem consequatur, ea, eveniet voluptatem impedit sit natus assumenda modi in laborum voluptatum cumque harum quisquam? Reprehenderit, impedit.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, iure. Ex, non ipsam, cupiditate, ipsa autem ipsum nulla quaerat sit aperiam necessitatibus fugit? Culpa, accusantium! Voluptas deleniti neque odit commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et repellendus esse dolorem consequatur, ea, eveniet voluptatem impedit sit natus assumenda modi in laborum voluptatum cumque harum quisquam? Reprehenderit, impedit.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, iure. Ex, non ipsam, cupiditate, ipsa autem ipsum nulla quaerat sit aperiam necessitatibus fugit? Culpa, accusantium! Voluptas deleniti neque odit commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et repellendus esse dolorem consequatur, ea, eveniet voluptatem impedit sit natus assumenda modi in laborum voluptatum cumque harum quisquam? Reprehenderit, impedit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore molestias saepe, assumenda atque nisi magni unde rem ducimus consequatur itaque esse voluptas totam aliquam quibusdam et aperiam repellat fugit. Officia.</p>
+        </article>
+    </main>
+  <script>
+    function clickMenu() {
+        if (list.style.display == 'block') {
+            list.style.display = 'none'
+        } else {
+            list.style.display = 'block'
+        }
+    }
+  </script>
+</body>
+</html>
